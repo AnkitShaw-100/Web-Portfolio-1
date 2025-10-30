@@ -46,7 +46,15 @@ const Banner = () => {
                         <br /> <span className="ml-4">DEVELOPER</span>
                     </h1>
                     <p className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
-                        I&apos;m <span className="font-medium text-foreground">Ankit</span>, a full stack developer and 3rd-year engineering student at IEM Institute of Engineering and Management. I work with both frontend and backend technologies, building web applications and continuously expanding my skills through hands-on projects.
+                        I&apos;m{' '}
+                        <span className="font-medium text-foreground">
+                            Ankit
+                        </span>
+                        , a full stack developer and 3rd-year engineering
+                        student at IEM Institute of Engineering and Management.
+                        I work with both frontend and backend technologies,
+                        building web applications and continuously expanding my
+                        skills through hands-on projects.
                     </p>
                     <div className="flex gap-4 mt-9">
                         <Button
@@ -62,10 +70,10 @@ const Banner = () => {
                             variant="secondary"
                             className="banner-button slide-up-and-fade bg-white text-black hover:bg-primary transition-colors"
                             onClick={() => {
-                                const imageUrl = '/logo/ts.png';
+                                const resumeUrl = '/Resume.pdf';
                                 const link = document.createElement('a');
-                                link.href = imageUrl;
-                                link.download = 'typescript-logo.png';
+                                link.href = resumeUrl;
+                                link.download = 'Resume.pdf';
                                 document.body.appendChild(link);
                                 link.click();
                                 document.body.removeChild(link);
@@ -76,28 +84,32 @@ const Banner = () => {
                     </div>
                 </div>
 
-                    <div className="md:absolute bottom-[10%] right-[4%] flex md:flex-col gap-4 md:gap-8 text-center md:text-right">
-                        <div className="slide-up-and-fade">
-                            <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                                5
-                            </h5>
-                            <p className="text-muted-foreground">Completed Projects</p>
-                        </div>
-
-                        <div className="slide-up-and-fade">
-                            <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                                3
-                            </h5>
-                            <p className="text-muted-foreground">Hackathons</p>
-                        </div>
-
-                        <div className="slide-up-and-fade">
-                            <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                                3rd Year
-                            </h5>
-                            <p className="text-muted-foreground">Engineering Student</p>
-                        </div>
+                <div className="md:absolute bottom-[10%] right-[4%] flex md:flex-col gap-4 md:gap-8 text-center md:text-right">
+                    <div className="slide-up-and-fade">
+                        <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
+                            5
+                        </h5>
+                        <p className="text-muted-foreground">
+                            Completed Projects
+                        </p>
                     </div>
+
+                    <div className="slide-up-and-fade">
+                        <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
+                            3
+                        </h5>
+                        <p className="text-muted-foreground">Hackathons</p>
+                    </div>
+
+                    <div className="slide-up-and-fade">
+                        <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
+                            3rd Year
+                        </h5>
+                        <p className="text-muted-foreground">
+                            Engineering Student
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
     );

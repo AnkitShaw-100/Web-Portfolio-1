@@ -33,7 +33,7 @@ const ProjectList = () => {
         { scope: containerRef },
     );
 
-    const handleMouseEnter = () => { };
+    const handleMouseEnter = () => {};
 
     return (
         <section className="pb-section mt-12 md:mt-20" id="selected-projects">
@@ -41,7 +41,6 @@ const ProjectList = () => {
                 <SectionTitle title="SELECTED PROJECTS" />
 
                 <div className="group/projects relative" ref={containerRef}>
-
                     <div
                         className="flex flex-col max-md:gap-10"
                         ref={projectListRef}

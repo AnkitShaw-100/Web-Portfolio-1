@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { Anton, Roboto_Flex } from 'next/font/google';
-// Lenis removed: using native browser scrolling
 import './globals.css';
 import Footer from '@/components/Footer';
 import ScrollProgressIndicator from '@/components/ScrollProgressIndicator';
@@ -53,7 +52,7 @@ export default function RootLayout({
                 className={`${antonFont.variable} ${robotoFlex.variable} antialiased`}
             >
                 {/* Using native scrolling (Lenis removed) */}
-                    {/* <a
+                {/* <a
                         href="https://forms.gle/t73XYJgWD5cJNr6e8"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -62,15 +61,15 @@ export default function RootLayout({
                         Frontend dev? I&apos;ll help you polish your resume —
                         completely free.
                     </a> */}
-                    <Navbar />
-                    <main>{children}</main>
-                    <Footer />
+                <Navbar />
+                <main>{children}</main>
+                <Footer />
 
-                    <CustomCursor />
-                    <Preloader />
-                    <ScrollProgressIndicator />
-                    <ParticleBackground />
-                    <StickyEmail />
+                <CustomCursor />
+                <Preloader />
+                <ScrollProgressIndicator />
+                <ParticleBackground />
+                <StickyEmail />
                 {/* end native scrolling wrapper */}
             </body>
         </html>
