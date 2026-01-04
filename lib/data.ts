@@ -91,9 +91,9 @@ export const PROJECTS: IProject[] = [
           <li>Created inbox, sent, and trash flows with compose modal and validation</li>
         </ul>`,
         images: [
-            '/projects/images/gmail-login-page.png',
-            '/projects/images/gmail-home-page.png',
-            '/projects/images/gmail-home-page2.png',
+            '/projects/images/Mailify-Signup.png',
+            '/projects/images/Mailfiy-Homepage.png',
+            '/projects/images/Mailify-Sent-page.png',
         ],
     },
     {

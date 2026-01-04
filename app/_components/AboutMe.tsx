@@ -72,21 +72,12 @@ const AboutMe = () => {
                     <div className="md:col-span-7">
                         <div className="text-lg text-muted-foreground max-w-[450px]">
                             <p className="slide-up-and-fade">
-                                I&apos;m a full-stack developer specializing in
-                                building modern, scalable web applications. From
-                                crafting intuitive user interfaces to
-                                architecting robust backend systems, I bring
-                                ideas to life with clean code and thoughtful
-                                engineering.
-                            </p>
-                            <p className="mt-3 slide-up-and-fade">
-                                I thrive on solving complex challenges,
-                                optimizing performance, and creating solutions
-                                that make a real impact. Whether it&apos;s
-                                designing RESTful APIs, implementing secure
-                                authentication, or building responsive
-                                frontends—I focus on quality, maintainability,
-                                and results.
+                                Full-stack developer and 3rd-year engineering
+                                student at IEM Institute of Engineering and
+                                Management. I work with both frontend and
+                                backend technologies, building web applications
+                                and continuously expanding my skills through
+                                hands-on projects.
                             </p>
                         </div>
                     </div>
