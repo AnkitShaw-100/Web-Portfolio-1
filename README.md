@@ -41,6 +41,3 @@ Visit `http://localhost:3000`.
 * Uses `--legacy-peer-deps` due to React 19 RC peer dependencies
 * Resume served from `/public/Resume.pdf`
 
-## License
-
-Private project
